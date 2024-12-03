@@ -2,46 +2,54 @@ body{
     color: black;
     background: purple;
     font-family: "IM Fell English SC", serif;
-    margin: 8px;
+    margin: 80px;
     margin-bottom: 100px;
-
-
-
     margin-top: 80px;
-
-
-
-
-
-
-
-
-
+}
 .chamada-texto{
-    margin-right: 5%;
+    background: rgb(205, 133, 145);
+    margin-top: 80px;
+    display: flex;
+    justify-content:center;
+}
+header{
+    color: blueviolet;
+    font-size: 40px;
+    border-bottom: solid 3px blueviolet;
 }
 
-h1{
-    font-size: ;
-
-
-
-
-
-
-
-
-
-
-
-
-    .categoria-videos imag
-    height: 200;
+  .categoria-videos img{
+    height: 200px;
 opacity:0.5;
 }
-.categoria-videos img hover
+.categoria-videos img:hover{
     opacity: 1.0;
     border: 3px solid gray;
-
-
+}
+h2{
     font-size: 30px;
+
+}
+    .categoria{
+        background: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+    .categoria-videos{
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+ }
+ .categoria-videos img{
+height: 200px;
+opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid gray;
+}
+h2{
+    font-size: 25px;
+}
+ 
